@@ -28,7 +28,8 @@ namespace AutoPaskaitos.BaigiamasisProjektas.Testai
         [Test]
         public void idetiVaistusikrepseli()//+
         {
-            vaistai.IAkcijas();            
+            vaistai.IAkcijas();
+            //Thread.Sleep(2000);
             vaistai.IdetiIKepseli();
             Thread.Sleep(3000);
             vaistai.IiKrepseli();

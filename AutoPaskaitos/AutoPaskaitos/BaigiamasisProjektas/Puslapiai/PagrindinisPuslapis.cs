@@ -79,7 +79,7 @@ namespace AutoPaskaitos.BaigiamasisProjektas.Puslapiai
         }        
         public void IrasykEmaila()
         {            
-            IvedimoLaukas.SendKeys("lisa@gmail.com");            
+            IvedimoLaukas.SendKeys("lisam@gmail.com");            
         }
         public void iApaciascroll()
         {            

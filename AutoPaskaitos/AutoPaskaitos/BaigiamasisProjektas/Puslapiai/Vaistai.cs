@@ -145,7 +145,7 @@ namespace AutoPaskaitos.BaigiamasisProjektas.Puslapiai
         }
         public void errorLangai() //error mail,metai,tel
         {
-            //Assert.AreEqual("Neteisingas formatas.", driver.FindElement(By.CssSelector(".email .alert")).Text);
+            Assert.AreEqual("Neteisingas formatas.", driver.FindElement(By.CssSelector(".email .alert")).Text);
             Assert.AreEqual("Formatas turi būti 1970-05-31.", driver.FindElement(By.CssSelector(".help-block:nth-child(3) .alert")).Text);
             Assert.AreEqual("Neteisingas formatas.", driver.FindElement(By.CssSelector(".phone .alert")).Text);
         }
